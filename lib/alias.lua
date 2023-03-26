@@ -1,0 +1,1 @@
+debug = function(...) core.debug(...) end
