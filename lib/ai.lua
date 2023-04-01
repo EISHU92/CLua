@@ -1,12 +1,5 @@
 clua.ai = {}
---clua.ai.selections = {"Select", "Get"}
-clua.ai.tell = {}
---clua.ai.tell.welcome = {"Hiii!", "Helloo!", "Welcome!", "haai!", "Heloo"}
---[[
-clua.ai.activate_when = {"Wheres AI?", "clua.ai", "ai", "Wheres Clua"}
-clua.ai.tell.when_activate = {"Hi sir!", "whats up",}
---]]
-function clua.aif(conditionn, etable) -- Primary AI (Only had table parser with random and `IF`)
+function clua.aif(conditionn, etable) 
 	condition = {}
 	--conditionS.timedout = 2
 	--condition.selected, condition.value, condition.value1, condition.value2, condition.value3 = unpack(conditionn:split(" "))
